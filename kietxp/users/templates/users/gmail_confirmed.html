@@ -1,0 +1,9 @@
+{% extends 'ghar/basepasres.html' %}
+{% block content %}
+<h6>Thank you for your email confirmation. Now you can login your account.</h6>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+           <a class="ml-2" target="_blank" href={% url 'login' %}>Login here</a>
+        </small>
+    </div>
+{% endblock content %}

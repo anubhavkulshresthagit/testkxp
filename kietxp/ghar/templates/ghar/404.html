@@ -1,0 +1,124 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <title>500 Error</title>
+  </head>
+  <style >
+     .bgimage {
+      background-image: url("{% static 'ghar/501.png'  %}");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      padding-top: 50px;
+
+
+      }
+
+    .box h1{
+      font-family: 'Fondamento', cursive;
+      font-size: 250px;
+      margin-bottom: 20px;
+    }
+    .box h2{
+      font-family: 'Fondamento', cursive;
+      font-size: 80px;
+      margin-bottom: 50px;
+    }
+#p1 {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+
+
+
+    #p1{
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: 'Fondamento', cursive;
+      font-size: 40px;
+    }
+
+     #p2 {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+    #p2{
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: 'Fondamento', cursive;
+      font-size: 40px;
+    }
+    @media (max-width: 768px){
+      .box h1{
+      font-family: 'Fondamento', cursive;
+      font-size: 150px;
+      margin-bottom: 20px;
+      padding-top:140px;
+    }
+    .box h2{
+      font-family: 'Fondamento', cursive;
+      font-size: 50px;
+      margin-bottom: 50px;
+    }
+    #p1{
+      font-family: 'Fondamento', cursive;
+      font-size: 15px;
+      letter-spacing: 1px;word-spacing: 1px;
+      font-weight: 800;
+    }
+    #p2{
+      font-family: 'Fondamento', cursive;
+      font-size: 15px;
+    }
+    }
+  </style>
+  </style>
+
+  <body>
+    <div class="bgimage">
+
+
+
+
+    <div class="container box p-10">
+
+      <h1 style="text-align: center; font-weight: bold; letter-spacing: 4px;">404</h1>
+      <h2 style="text-align: center; font-weight: bold; letter-spacing: 2px;word-spacing: 4px;">Page not found</h2>
+      <p id="p1" style="text-align: center;letter-spacing: 1px;word-spacing: 3px;font-weight: 600;">The requested URL /website was not found on this server.</p>
+      <p id="p2" style="text-align: center;letter-spacing: 1px;word-spacing: 3px;font-weight: 600;"> <strong>That's all we know.</strong>.</p>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
